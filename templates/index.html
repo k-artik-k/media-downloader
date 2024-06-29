@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Downloader</title>
+</head>
+<body>
+    <h1>Video Downloader</h1>
+    <form action="/download" method="post">
+        <label for="url">Video URL:</label>
+        <input type="text" id="url" name="url" required>
+        <br>
+        <label for="quality">Quality:</label>
+        <select id="quality" name="quality">
+            <option value="720p">720p</option>
+            <option value="480p">480p</option>
+            <option value="360p">360p</option>
+        </select>
+        <br>
+        <button type="submit">Download</button>
+    </form>
+</body>
+</html>
